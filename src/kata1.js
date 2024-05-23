@@ -8,4 +8,5 @@ function findSpaceship(map) {
 			return [columnIndex, rows.length - 1 - rowIndex];
 		}
 	}
+	return ('Spaceship lost forever.');
 }
